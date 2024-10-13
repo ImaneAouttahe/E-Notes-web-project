@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 20px;
+    color: #000000;
+}
+.container {
+    background-color: #ffffff;
+    border: 1px solid #4CAF50;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+h2 {
+    color: #4CAF50;
+}
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.selected {
+    color: #4CAF50;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}td {
+    /* autres styles */
+    align-items: center; /* Centre verticalement */
+    justify-content: center; /* Centre horizontalement */
+    text-align: center;
+    vertical-align: middle;
+    overflow-wrap: break-word; /* Permet de passer à la ligne si nécessaire */
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+th {
+    background:linear-gradient(180deg,#8944D7 0%,#2FDF84  100%);
+    color: white;
+}
+td[contenteditable="true"]:focus {
+    border: 2px solid #20c997; /* Couleur de bordure verte lors du focus */
+    outline: none;
+}
+ .form-control {
+    display: inline-block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6e707e;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #d1d3e2;
+    border-radius: .35rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+#btnTerminer{
+    background:linear-gradient(180deg, #2FDF84 0%,#8944D7 100%);
+    border: none;
+    color:white;
+}
+#btnEnregistrer{
+    background:linear-gradient(180deg, #2FDF84 0%,#8944D7 100%);
+    border: none;
+    color:white;
+}
+
